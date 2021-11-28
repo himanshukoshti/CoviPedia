@@ -1,0 +1,46 @@
+.backdrop_sym{
+    background-color: #fcca8e;
+    background-image: linear-gradient(62deg, #fcca8e 0%, #c3fcd2 100%);
+    width: auto;
+    height: 430px;
+    font-family: 'Jost', sans-serif;
+}
+.symptoms_head{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.img_sym_pop{
+    animation: pop 2s infinite ease-in-out alternate;
+    width: 413px;
+}
+.symptoms_all{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Jost', sans-serif;
+}
+.sym_more{
+    background-color: #FAACA8;
+    background-image: linear-gradient(334deg, #FAACA8 0%, #DDD6F3 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Jost', sans-serif;
+}
+.symp{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width: 760px) {
+    .backdrop_sym{
+        height: 580px;
+    }
+    .symptoms_head{
+        margin-top: 70px;
+    }
+    .sym_title{
+        text-align: center;
+        font-size: 25px;
+    }
+    
+}

@@ -1,0 +1,36 @@
+.pre-box{
+    width: 320px;
+    margin-top: 35px;
+    border-radius: 20px;
+    background-color: #fcca8e ;
+    background-image: linear-gradient(62deg, #fcca8e 0%, #c3fcd2 100%) ;
+}
+
+.box-shadow {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.23);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+.box-shadow:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.pre-img{
+    width: 150px;
+    height: 157px;
+    padding-top: 20px;
+}
+.pre-text{
+    width: 290px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.pre-div{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+@media only screen and (max-width: 760px) {
+    .pre-div{
+        margin-left: 0px;
+    }
+}

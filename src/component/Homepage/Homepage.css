@@ -1,0 +1,70 @@
+
+.backdrop{
+    background-color: #fcca8e;
+    background-image: linear-gradient(62deg, #fcca8e 0%, #c3fcd2 100%);
+    height: 430px;
+    font-family: 'Jost', sans-serif;
+    padding-top: 100px;
+}
+.covid_con{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.buttonown{
+    background-color: rgb(22, 67, 163);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    width: 180px;
+    height: 40px;
+}
+.covid_about{
+    font-family: 'Jost', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.covid_defi{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.covid_contact{
+    background-color: #FAACA8;
+    background-image: linear-gradient(334deg, #FAACA8 0%, #DDD6F3 100%);
+    padding-top: 80px;
+    padding-bottom: 70px;
+    font-family: 'Jost', sans-serif;
+}
+.covid_faci{
+    text-decoration: none;
+    color: rgb(12, 12, 112);
+}
+.img-pop{
+    animation: pop 2s infinite ease-in-out alternate;
+    width: 413px;
+    height: auto;
+}
+@keyframes pop{
+    0% {transform: scale(1, 1);}
+    100% {transform: scale(1.07, 1.07);}
+}
+.covid_vaccine{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Jost', sans-serif;
+}
+.covid_vacc{
+    width: 320px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+@media only screen and (max-width: 760px) {
+    .backdrop{
+        height: 700px;
+    }
+    .covid_about{
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+}

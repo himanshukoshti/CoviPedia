@@ -1,0 +1,50 @@
+.cases_font{
+    font-family: 'Jost', sans-serif;
+}
+.case_select{
+    height: 36px;
+    margin-right: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.case_btn{
+    margin-top: -5px;
+}
+.data_box{
+    background-color: #fcca8e ;
+    background-image: linear-gradient(62deg, #fcca8e 0%, #c3fcd2 100%) ;
+    height: 150px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.data_data{
+    margin-top: 20px;
+}
+.card-4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media only screen and (max-width: 760px) {
+    .data_box{
+        height: 100px;
+        width: 200px;
+        padding: 1px 1px;
+    }
+    .case_select{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .case_btn{
+        margin-top: -2px;
+        margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 325px) {
+    .case_btn{
+        margin-top: 5px;
+    }
+}

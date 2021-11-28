@@ -1,0 +1,26 @@
+.navbag{
+    background-color: #fcca8e !important;
+    background-image: linear-gradient(62deg, #fcca8e 0%, #c3fcd2 100%) !important;
+}
+.nav-item{
+    margin-left: 10px;
+}
+/* .own_nav{
+    text-decoration: none;
+    color: rgb(197, 40, 40);
+} */
+.title{
+    font-size: 25px;
+    margin-left: 120px;
+}
+@media only screen and (max-width: 780px) {
+    .title{
+        margin-left: 50px;  
+    }
+    .nav-item{
+        margin-left: 20px;
+    }
+    #navbarNav{
+        z-index: 4;
+    }
+}
